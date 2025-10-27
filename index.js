@@ -1,31 +1,29 @@
 // Variáveis para armazenar nomes e XP dos heróis
-let nomeHerois = ["Homem de Ferro", "Capitão América", "Thor", "Hulk", "Viúva Negra", "Gavião Arqueiro"];
-let xpHerois = ["1000", "2500", "6000", "8000", "9500", "11000"];
-let rankHerois = ["Ferro", "Bronze", "Prata", "Ouro", "Platina", "Ascendente", "Imortal", "Radiante"];
+let nomeHerois = ["Homem de Ferro", "Capitão América", "Thor", "Hulk", "Viúva Negra", "Gavião Arqueiro", "Pantera Negra", "Doutor Estranho"];
+let xpHerois = [1000, 2500, 6000, 8000, 9500, 10000, 11000, 12000];
+
+// Loop para exibir os Nomes, XP e Níveis dos heróis
+for (let i = 0; i < nomeHerois.length; i++) {
+    let rankHerois;
 
 // Adicionando nomes e XP dos heróis
-if (xpHerois < 1000){
-    console.log("Ferro");
-} else if (xpHerois > 1000 && xpHerois <= 2000){
-    console.log("Bronze");
-} else if (xpHerois > 2000 && xpHerois <= 5000){
-    console.log("Prata");
-} else if (xpHerois > 5000 && xpHerois <= 7000){
-    console.log("ouro");
-} else if (xpHerois > 7000 && xpHerois <= 8000){
-    console.log("Platina");
-} else if (xpHerois > 8000 && xpHerois <= 9000){
-    console.log("Ascendente");
-} else if (xpHerois > 9000 && xpHerois <= 10000){
-    console.log("Imortal");
+if (xpHerois[i] <= 1000){
+    rankHerois = "Ferro";
+} else if (xpHerois[i] >= 1001 && xpHerois[i] <= 2000){
+    rankHerois = "Bronze";
+} else if (xpHerois[i] >= 2001 && xpHerois[i] <= 5000){
+    rankHerois = "Prata";
+} else if (xpHerois[i] >= 5001 && xpHerois[i] <= 7000){
+    rankHerois = "Ouro";
+} else if (xpHerois[i] >= 7001 && xpHerois[i] <= 8000){
+    rankHerois = "Platina";
+} else if (xpHerois[i] >= 8001 && xpHerois[i] <= 9000){
+    rankHerois = "Ascendente";
+} else if (xpHerois[i] >= 9001 && xpHerois[i] <= 10000){
+    rankHerois = "Imortal";
 } else {
-    console.log("Radiante");
+    rankHerois = "Radiante";
 }
 
-// Loop para exibir os Nomes, XP e nível dos heróis
-for (let i = 0; i < nomeHerois.length; i++) {
-    console.log("O Herói de nome " + nomeHerois[i] + " tem XP de " + xpHerois[i] + " e está no rank " + rankHerois[i] + ".");
+console.log(`O herói ${nomeHerois[i]} possui ${xpHerois[i]} de XP e é do rank ${rankHerois}.`);
 }
-
-// Saída dos nomes e XP dos heróis
-console.log("O Herói de nome ${nomeHerois} tem XP de ${xpHerois} e está no rank ${rankHerois}.");
