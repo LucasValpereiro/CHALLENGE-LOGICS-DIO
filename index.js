@@ -1,6 +1,6 @@
 // Variáveis para armazenar nomes e XP dos heróis
 let nomeHerois = ["Homem de Ferro", "Capitão América", "Thor", "Hulk", "Viúva Negra", "Gavião Arqueiro", "Pantera Negra", "Doutor Estranho"];
-let xpHerois = [1000, 2500, 6000, 8000, 9500, 10000, 11000, 12000];
+let xpHerois = [1000, 1500, 2500, 6000, 7500, 9000, 10000, 12000];
 
 // Loop para exibir os Nomes, XP e Níveis dos heróis
 for (let i = 0; i < nomeHerois.length; i++) {
@@ -8,7 +8,7 @@ for (let i = 0; i < nomeHerois.length; i++) {
 
 // Adicionando nomes e XP dos heróis
 if (xpHerois[i] <= 1000){
-    rankHerois = "Ferro";
+    rankHerois = "Ferro";   
 } else if (xpHerois[i] >= 1001 && xpHerois[i] <= 2000){
     rankHerois = "Bronze";
 } else if (xpHerois[i] >= 2001 && xpHerois[i] <= 5000){
