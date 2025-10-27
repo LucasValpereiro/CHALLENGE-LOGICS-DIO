@@ -11,10 +11,11 @@ if (xpHerois < 1000){
     console.log("ouro");
 } else if (xpHerois > 7000 && xpHerois <= 8000){
     console.log("Platina");
-} else if(xpHerois > 8000 && xpHerois <= 9000){
+} else if (xpHerois > 8000 && xpHerois <= 9000){
     console.log("Ascendente");
-} else if(xpHerois > 9000 && xpHerois <= 10000){
+} else if (xpHerois > 9000 && xpHerois <= 10000){
     console.log("Imortal");
-} else (xpHerois >= 10000){
+} else {
     console.log("Radiante");
 }
+
