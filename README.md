@@ -97,8 +97,11 @@ Desenvolvido por **Lucas Valpereiro** como parte do bootcamp da DIO.
 
 <img width="1900" height="863" alt="image" src="https://github.com/user-attachments/assets/2eda1896-6577-4351-a16b-6cfd4ebb4224" />
 
+<img width="1918" height="870" alt="image" src="https://github.com/user-attachments/assets/f7c17e9f-1c79-4f48-a77c-21b333112dd1" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/seu-perfil)
+
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](www.linkedin.com/in/lucas-valpereiro-6876111b5)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/LucasValpereiro)
 
 ## 📄 Licença
